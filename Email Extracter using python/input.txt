@@ -1,0 +1,7 @@
+Hello World!
+poornima@gmail.com
+family4@gmail.com
+test@gmail.com
+hello@yahoo.com
+test@gmail.com
+This are some Emails in my input text file
