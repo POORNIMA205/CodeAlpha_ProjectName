@@ -1,4 +1,4 @@
-# imple Chatbot using Python
+#  Simple Chatbot using Python
 
 # Project Description
 
