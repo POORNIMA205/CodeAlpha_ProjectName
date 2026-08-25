@@ -1,6 +1,6 @@
-# 📧 Email Extractor using Python
+#  Email Extractor using Python
 
-## 📌 Project Overview
+##  Project Overview
 
 **Email Extractor** is a Python-based application that extracts useful information from email text and stores the extracted data in a **ChromaDB vector database** using embeddings.
 
@@ -10,7 +10,7 @@ The main purpose of this project is to understand how **text extraction + embedd
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 The project is designed to:
 
@@ -25,7 +25,7 @@ The project is designed to:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology            | Purpose                             |
 | --------------------- | ----------------------------------- |
@@ -37,7 +37,7 @@ The project is designed to:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Email Extracter using python/
@@ -57,7 +57,7 @@ Email Extracter using python/
 
 ---
 
-# ⚙️ How the Project Works
+#  How the Project Works
 
 The application follows this general workflow:
 
@@ -85,7 +85,7 @@ Return Relevant Emails
 
 ---
 
-# 🧠 What is an Embedding?
+#  What is an Embedding?
 
 An embedding converts text into a list of numerical values called a **vector**.
 
@@ -118,7 +118,7 @@ For example:
 
 ---
 
-# 🗄️ What is ChromaDB?
+#  What is ChromaDB?
 
 ChromaDB is a **vector database**.
 
@@ -150,7 +150,7 @@ Metadata:
 
 ---
 
-# 🏷️ Metadata
+#  Metadata
 
 Metadata provides additional information about an email/document.
 
@@ -186,7 +186,7 @@ This makes it easier to filter and organize emails.
 
 ---
 
-# 📦 Installation
+#  Installation
 
 ## Step 1: Install Python
 
@@ -242,7 +242,7 @@ python -c "from sentence_transformers import SentenceTransformer; print('Sentenc
 
 ---
 
-# ▶️ How to Run the Project
+#  How to Run the Project
 
 Open the project folder in VS Code.
 
@@ -272,7 +272,7 @@ python Email_Extractor.py
 
 ---
 
-# 🔢 ChromaDB Collection
+#  ChromaDB Collection
 
 The project creates a persistent ChromaDB database:
 
@@ -294,7 +294,7 @@ The collection acts like a container for your documents, embeddings, and metadat
 
 ---
 
-# ➕ Adding Data
+#  Adding Data
 
 Documents, IDs, embeddings, and metadata are added using:
 
@@ -319,7 +319,7 @@ doc3        ChromaDB...                 Database
 
 ---
 
-# 🔍 Searching the Collection
+#  Searching the Collection
 
 A query embedding can be used to find similar documents:
 
@@ -340,7 +340,7 @@ ChromaDB compares the query embedding with the stored embeddings and returns the
 
 ---
 
-# 📖 Reading Stored Data
+#  Reading Stored Data
 
 To retrieve documents:
 
@@ -362,7 +362,7 @@ print(results)
 
 ---
 
-# 🔎 Filtering Using Metadata
+#  Filtering Using Metadata
 
 You can search based on metadata.
 
@@ -386,7 +386,7 @@ category = AI
 
 ---
 
-# ✏️ Updating Data
+#  Updating Data
 
 An existing document can be updated:
 
@@ -408,7 +408,7 @@ collection.update(
 
 ---
 
-# 🗑️ Deleting Data
+#  Deleting Data
 
 A document can be removed using:
 
@@ -420,7 +420,7 @@ collection.delete(
 
 ---
 
-# 🔢 Counting Documents
+#  Counting Documents
 
 To check how many documents are stored:
 
@@ -430,7 +430,7 @@ print(collection.count())
 
 ---
 
-# 📊 Main ChromaDB Operations
+#  Main ChromaDB Operations
 
 | Operation | ChromaDB Method       |
 | --------- | --------------------- |
@@ -443,7 +443,7 @@ print(collection.count())
 
 ---
 
-# 📧 Example Email Data
+#  Example Email Data
 
 An email can be represented like this:
 
@@ -471,7 +471,7 @@ The email text is stored as the **document**, while information such as sender, 
 
 ---
 
-# 💡 Example Use Case
+#  Example Use Case
 
 Suppose your database contains 10 emails.
 
@@ -494,18 +494,18 @@ This is more powerful than simply searching for an exact keyword.
 
 ---
 
-# ⚠️ Important: Embedding Dimension
+#  Important: Embedding Dimension
 
 If your collection is created using **20-dimensional embeddings**, every embedding supplied to that collection must contain exactly **20 values**.
 
 For example:
 
 ```text
-20 values → ✅ Correct
+20 values →  Correct
 
-19 values → ❌ Error
+19 values →  Error
 
-384 values → ❌ Error
+384 values →  Error
 ```
 
 This is especially important if you change embedding models.
@@ -516,7 +516,7 @@ Therefore, do not mix a 384-dimensional embedding with a collection expecting 20
 
 ---
 
-# 🐛 Common Errors
+#  Common Errors
 
 ## Error 1
 
@@ -560,7 +560,7 @@ pip install chromadb
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 The project can be extended with:
 
@@ -580,7 +580,7 @@ The project can be extended with:
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Poornima**
 
@@ -588,7 +588,7 @@ Python | ChromaDB | Embeddings | Vector Database
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 The Email Extractor project demonstrates how email data can be processed and stored using Python and ChromaDB.
 
@@ -614,6 +614,6 @@ This project provides a foundation for building an **AI-powered email search and
 
 # Author
 
-Poornima H B
+*Poornima H B*
 
 ---
