@@ -1,6 +1,6 @@
-# 🎮 Hangman Game using Python
+#  Hangman Game using Python
 
-## 📌 Project Overview
+##  Project Overview
 
 **Hangman Game** is a simple command-line game developed using Python.
 
@@ -19,7 +19,7 @@ This project is designed to practice Python fundamentals such as:
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 The main objectives of this project are:
 
@@ -34,7 +34,7 @@ The main objectives of this project are:
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 | Technology    | Purpose                   |
 | ------------- | ------------------------- |
@@ -46,7 +46,7 @@ No external libraries are required.
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 Hangman_Game/
@@ -57,7 +57,7 @@ Hangman_Game/
 
 ---
 
-# ⚙️ How the Game Works
+#  How the Game Works
 
 The game follows these steps:
 
@@ -85,7 +85,7 @@ End Game
 
 ---
 
-# ▶️ How to Run the Project
+#  How to Run the Project
 
 ## Step 1: Install Python
 
@@ -162,7 +162,7 @@ Continue guessing until you either:
 
 ---
 
-# 🧪 Example Game
+#  Example Game
 
 Suppose the selected word is:
 
@@ -218,13 +218,13 @@ P Y T H O N
 Output:
 
 ```text
-🎉 Congratulations!
+ Congratulations!
 You guessed the word!
 ```
 
 ---
 
-# ❌ Incorrect Guess Example
+#  Incorrect Guess Example
 
 Suppose the word is:
 
@@ -267,14 +267,14 @@ Attempts remaining: 0
 Then:
 
 ```text
-💀 Game Over!
+ Game Over!
 
 The word was: PYTHON
 ```
 
 ---
 
-# 🔑 Main Features
+#  Main Features
 
 ### 1. Random Word Selection
 
@@ -360,7 +360,7 @@ Try another letter.
 The player wins when all letters are correctly guessed.
 
 ```text
-🎉 You Win!
+ You Win!
 ```
 
 ---
@@ -370,13 +370,13 @@ The player wins when all letters are correctly guessed.
 The player loses when all attempts are used.
 
 ```text
-💀 You Lose!
+ You Lose!
 The word was: PYTHON
 ```
 
 ---
 
-# 🧠 Python Concepts Used
+#  Python Concepts Used
 
 This project helps practice several important Python concepts.
 
@@ -434,7 +434,7 @@ word = random.choice(words)
 
 ---
 
-# 📊 Game Logic
+#  Game Logic
 
 The main game logic is:
 
@@ -452,7 +452,7 @@ The main game logic is:
 
 ---
 
-# 🐛 Common Problems
+#  Common Problems
 
 ## Python is not recognized
 
@@ -506,24 +506,24 @@ You already guessed that letter.
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 The basic Hangman game can be improved by adding:
 
-* 🎨 GUI using Tkinter
-* 🔊 Sound effects
-* 🏆 Score system
-* ❤️ Visual Hangman drawing
-* 📚 Different word categories
-* 🎚️ Difficulty levels
-* 👥 Two-player mode
-* ⏱️ Timer
-* 💾 High-score storage
-* 🌐 Web version using Flask or FastAPI
+*  GUI using Tkinter
+*  Sound effects
+*  Score system
+*  Visual Hangman drawing
+*  Different word categories
+*  Difficulty levels
+*  Two-player mode
+*  Timer
+*  High-score storage
+*  Web version using Flask or FastAPI
 
 ---
 
-# 📌 Example Categories
+#  Example Categories
 
 You can organize words into categories such as:
 
@@ -570,15 +570,15 @@ After completing this project, you will understand how to:
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
-**Poornima**
+*Poornima*
 
 Python Beginner Project
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 The Hangman Game is a beginner-friendly Python project that combines several fundamental programming concepts into one interactive application.
 
